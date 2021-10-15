@@ -1,7 +1,7 @@
 cli-plugin-template
 ===================
 
-vtex plugin template
+plugin template da vtex
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 ![npm](https://img.shields.io/npm/v/@vtex/cli-plugin-template)
@@ -28,24 +28,24 @@ USAGE
 <!-- commands -->
 * [`oclif-example hello [FILE]`](#oclif-example-hello-file)
 
-## `oclif-example hello [FILE]`
+## `oclif-example Olá [FILE]`
 
-describe the command here
+Descreva o comando aqui
 
 ```
-USAGE
+USO
   $ oclif-example hello [FILE]
 
-OPTIONS
+OPÇÕES
   -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --verbose    Show debug level logs
-  --trace          Ensure all requests to VTEX IO are traced
+  -h, --help       mostra CLI ajuda
+  -n, --name=name  nome para printar
+  -v, --verbose    mostrar o log dos níveis de debug
+  --trace          assegura que todos os pedidos para VTEX IO sejam rastreaveis
 
-EXAMPLE
+EXEMPLO
   $ oclif-example hello
-  hello world from ./src/hello.ts!
+  olá mundo from ./src/hello.ts!
 ```
 
 _See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.0/build/commands/hello.ts)_
